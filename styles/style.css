@@ -110,13 +110,13 @@
   font-weight: 700;
   line-height: 115%;
   /* 100px */
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   padding: 165px 50px 135px;
 }
 
 .aligned-text {
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text_center {
@@ -124,6 +124,7 @@
 	grid-row: 2/3; */
   text-align: center;
   line-height: 100%;
+  padding-right: 60px;
 }
 
 .aligned-text_right {
@@ -134,11 +135,11 @@
 }
 
 .no-letter-spacing {
-  margin-right: -0.3em;
+  letter-spacing: initial;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 60px;
+  letter-spacing: 0.6em;
 }
 
 .cover__description {
